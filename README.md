@@ -1,4 +1,2 @@
-JW-Player-Chapterdock
-=====================
-
-JW Player Chapterdock
+JW Player Chapterdock Plugin
+========================================================
