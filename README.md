@@ -73,7 +73,7 @@ There are a few configuration options:
     <td><strong>next_title</strong></td>
     <td>
       The text to display before the next chapter.<br />
-      (&gt;b&lt;Next chapter:&gt;/b&lt;)
+      (&lt;b&gt;Next chapter:&lt;/b&gt;)
     </td>
   </tr>
   <tr>
