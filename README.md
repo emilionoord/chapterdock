@@ -15,13 +15,13 @@ Requirements
 Quick Start
 -----------
 
-1) Download the latest JW Player here: http://www.longtailvideo.com/jw-player/download/.
+1) Download and extract the latest [JW Player](http://www.longtailvideo.com/jw-player/download/).
 
-2) Download jQuery here: http://code.jquery.com/jquery.min.js.
+2) Download [jQuery](http://code.jquery.com/jquery.min.js).
 
-3) Download the JW Player 6 version of the Chapterdock plugin here: https://github.com/skilip/chapterdock/archive/jwplayer-6.zip.
+3) Download and extract the JW Player 6 version of the [Chapterdock plugin](https://github.com/skilip/chapterdock/archive/jwplayer-6.zip).
 
-4) Extract the JW Player and the JW Player Chapterdock plugin and place the files in a logical structure.
+4) Place the files in a logical structure.
 
 Example:
   * /jwplayer.flash.swf
