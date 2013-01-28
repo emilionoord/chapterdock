@@ -50,7 +50,7 @@ Snel beginnen
         <b>Hoofdstuk 2</b>
         Een beschrijving
 
-6. Breng alles samen &#9774;
+6. Breng alles samen.
 
     **Voorbeeld:**
     
