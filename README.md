@@ -35,7 +35,7 @@ Quick Start
         /jquery.min.js
     
 5. Create a chapters SRT file.
-    
+
     **Example:**
     
         1
@@ -51,7 +51,7 @@ Quick Start
         Some description
 
 6. Bring it all together &#9774;
-    
+
     **Example:**
     
         jwplayer("myElement").setup({
