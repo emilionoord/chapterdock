@@ -49,6 +49,8 @@ Quick Start
         <i>Chapter:</i>
         <b>Chapter 2</b>
         Some description
+        
+        ...
 
 6. Bring it all together &#9774;
 
