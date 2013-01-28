@@ -5,6 +5,13 @@ JW Player Chapterdock Plugin
 
 Chapterdock is a JW Player plugin that can be used to display a list of chapters besides the JW Player. The chapters can be clicked individually to navigate through the video. The active chapter will be highlighted.
 
+Requirements
+------------
+
+* [**JW Player**](http://www.longtailvideo.com/jw-player/download/) (version 6.0 or later)
+* [**jQuery**](http://code.jquery.com/jquery.min.js) (version 1.0 or later)
+
+
 Quick Start
 -----------
 
@@ -16,7 +23,7 @@ Quick Start
 
 4) Extract the JW Player and the JW Player Chapterdock plugin and place the files in a logical structure.
 
-Example: 
+Example:
   * /jwplayer.flash.swf
   * /jwplayer.html5.js
   * /jwplayer.js
