@@ -6,7 +6,7 @@
 }
 
 .jwplayer .chaptercurrent {
-  background-color: #e0e7ea;
+  background-color: #eee;
   color: #333;
   text-align: center;
   margin: 0 10px 10px;
@@ -22,7 +22,7 @@
 .chapterdock .chapterRow {
   display: block;
   overflow: hidden;
-  color: #121469;
+  color: #333;
   padding: 4px 0;
   white-space: nowrap;
 }
@@ -32,14 +32,13 @@
   -webkit-border-radius: 3px;
   -khtml-border-radius: 3px;
   border-radius: 3px;
-  background-color: #e0e7ea;
-  color: #121469;
+  background-color: #eee;
   padding: 1px 2px 2px;
   margin: 0 5px 0 0;
 }
 
 .chapterdock .active .time {
-  background-color: #121469;
+  background-color: #333;
   color: white;
 }
 
