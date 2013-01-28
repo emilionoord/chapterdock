@@ -24,7 +24,7 @@ Quick Start
 4) Place the files in a logical structure.
 
 **Example:**
-
+    
     /jwplayer.flash.swf
     /jwplayer.html5.js
     /jwplayer.js
@@ -37,15 +37,23 @@ Quick Start
     /chapterdock/README.md
     /jquery.min.js
 
-5) Create a directory 'uploads' and make sure you have placed a video file and screenshot image in the uploads directory.
+5) Create a chapters SRT file.
 
 **Example:**
+    
+    1
+    00:00:01,000 --> 00:00:30,000
+    <i>Chapter:</i>
+    <b>Chapter 1</b>
+    Intro
+    
+    2
+    00:00:30,000 --> 00:01:00,000
+    <i>Chapter:</i>
+    <b>Chapter 2</b>
+    Some description
 
-    /uploads/example.jpg
-    /uploads/example.mp4
-
-6) Open /chapterdock/example.html in your browser.
-
+6) Load 
 
 Configuration
 -------------
