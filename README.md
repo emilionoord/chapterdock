@@ -30,8 +30,8 @@ Example:
 5) Create a directory 'uploads' and make sure you have placed a video file and screenshot image in the uploads directory.
 
 Example:
-  /uploads/example.jpg
-  /uploads/example.mp4
+/uploads/example.jpg
+/uploads/example.mp4
 
 6) Open /chapterdock/example.html in your browser.
 
