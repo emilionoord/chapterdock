@@ -16,60 +16,59 @@ Quick Start
 -----------
 
 1. Download and extract the latest [JW Player](http://www.longtailvideo.com/jw-player/download/).
-
 2. Download [jQuery](http://code.jquery.com/jquery.min.js).
-
 3. Download and extract the JW Player 6 version of the [Chapterdock plugin](https://github.com/skilip/chapterdock/archive/jwplayer-6.zip).
-
 4. Place the files in a logical structure.
-**Example:**
     
-    /jwplayer.flash.swf
-    /jwplayer.html5.js
-    /jwplayer.js
-    /README.html
-    /chapterdock/chapterdock.css
-    /chapterdock/chapterdock.js
-    /chapterdock/chapterdock.swf
-    /chapterdock/chapters.srt
-    /chapterdock/example.html
-    /chapterdock/README.md
-    /jquery.min.js
-
+    **Example:**
+    
+        /jwplayer.flash.swf
+        /jwplayer.html5.js
+        /jwplayer.js
+        /README.html
+        /chapterdock/chapterdock.css
+        /chapterdock/chapterdock.js
+        /chapterdock/chapterdock.swf
+        /chapterdock/chapters.srt
+        /chapterdock/example.html
+        /chapterdock/README.md
+        /jquery.min.js
+    
 5. Create a chapters SRT file.
-**Example:**
     
-    1
-    00:00:01,000 --> 00:00:30,000
-    <i>Chapter:</i>
-    <b>Chapter 1</b>
-    Intro
+    **Example:**
     
-    2
-    00:00:30,000 --> 00:01:00,000
-    <i>Chapter:</i>
-    <b>Chapter 2</b>
-    Some description
+        1
+        00:00:01,000 --> 00:00:30,000
+        <i>Chapter:</i>
+        <b>Chapter 1</b>
+        Intro
+        
+        2
+        00:00:30,000 --> 00:01:00,000
+        <i>Chapter:</i>
+        <b>Chapter 2</b>
+        Some description
 
 6. Bring it all together &#9774;
-**Example:**
     
-    jwplayer("myElement").setup({
-  	  file: "http://content.bitsontherun.com/videos/lWMJeVvV-364767.mp4",
-      image: "http://www.longtailvideo.com/content/images/jw-player/lWMJeVvV-876.jpg",
-      primary: 'html5',
-      plugins: {
-        'chapterdock.js': {
-          file: 'chapters.srt',
-          position: 'left',
-          next_title: '<i>Next in line...</i>',
-          timeFormat: function(time) {
-            // Your logic here...
-          },
-        }
-      }
-    });
+    **Example:**
     
+        jwplayer("myElement").setup({
+      	  file: "http://content.bitsontherun.com/videos/lWMJeVvV-364767.mp4",
+          image: "http://www.longtailvideo.com/content/images/jw-player/lWMJeVvV-876.jpg",
+          primary: 'html5',
+          plugins: {
+            'chapterdock.js': {
+              file: 'chapters.srt',
+              position: 'left',
+              next_title: '<i>Next in line...</i>',
+              timeFormat: function(time) {
+                // Your logic here...
+              },
+            }
+          }
+        });
 
 Configuration
 -------------
