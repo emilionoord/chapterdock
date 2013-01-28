@@ -3,24 +3,24 @@ JW Player Chapterdock Plugin
 
 <img src="https://raw.github.com/skilip/chapterdock/jwplayer-6/screenshot.png" />
 
-Chapterdock is a JW Player plugin that can be used to display a list of chapters besides the JW Player. The chapters can be clicked individually to navigate through the video. The active chapter will be highlighted.
+Chapterdock is een JW Player plugin die gebruikt kan worden om een lijst met hoofdstukken weer te geven naast de JW Player. De hoofdstukken kunnen afzonderlijk aangeklikt worden om tussen de video’s te navigeren. Het actieve hoofdstuk wordt dan uitgelicht weergegeven.
 
-Requirements
-------------
+Minimale eisen
+--------------
 
-* [**JW Player**](http://www.longtailvideo.com/jw-player/download/) (version 6.0 or later)
-* [**jQuery**](http://code.jquery.com/jquery.min.js) (version 1.0 or later)
+* [**JW Player**](http://www.longtailvideo.com/jw-player/download/) (versie 6.0 of later)
+* [**jQuery**](http://code.jquery.com/jquery.min.js) (versie 1.0 of later)
 
 
-Quick Start
------------
+Snel beginnen
+-------------
 
-1. Download and extract the latest [JW Player](http://www.longtailvideo.com/jw-player/download/).
+1. Download en extraheer de laaste versie van [JW Player](http://www.longtailvideo.com/jw-player/download/).
 2. Download [jQuery](http://code.jquery.com/jquery.min.js).
-3. Download and extract the JW Player 6 version of the [Chapterdock plugin](https://github.com/skilip/chapterdock/archive/jwplayer-6.zip).
-4. Place the files in a logical structure.
+3. Download en extraheer de JW Player 6 versie van de [Chapterdock plugin](https://github.com/skilip/chapterdock/archive/jwplayer-6.zip).
+4. Plaats de bestanden in een logische structuur.
 
-    **Example:**
+    **Voorbeeld:**
 
         /jwplayer.flash.swf
         /jwplayer.html5.js
@@ -34,27 +34,25 @@ Quick Start
         /chapterdock/README.md
         /jquery.min.js
 
-5. Create a chapters SRT file and name it 'chapters.srt'.
+5. Maak een SRT hofdstukken bestand en noem het 'chapters.srt'.
 
-    **Example:**
+    **Voorbeeld:**
 
         1
         00:00:01,000 --> 00:00:30,000
-        <i>Chapter:</i>
-        <b>Chapter 1</b>
-        Intro
+        <i>Hoofdstuk:</i>
+        <b>Hoofdstuk 1</b>
+        Inleiding
         
         2
         00:00:30,000 --> 00:01:00,000
-        <i>Chapter:</i>
-        <b>Chapter 2</b>
-        Some description
-        
-        ...
+        <i>Hoofdstuk:</i>
+        <b>Hoofdstuk 2</b>
+        Een beschrijving
 
-6. Bring it all together &#9774;
+6. Breng alles samen &#9774;
 
-    **Example:**
+    **Voorbeeld:**
     
         jwplayer("myElement").setup({
       	  file: "http://content.bitsontherun.com/videos/lWMJeVvV-364767.mp4",
@@ -72,10 +70,10 @@ Quick Start
           }
         });
 
-Configuration
+Configuratie
 -------------
 
-There are a few configuration options:
+Er zijn een aantal configuratie opties:
 
 <table>
   <thead>
@@ -89,37 +87,37 @@ There are a few configuration options:
     <tr>
       <td><strong>file (required)</strong></td>
       <td></td>
-      <td>The path or URL to the SRT chapterlist.</td>
+      <td>Het pad of de URL naar de SRT hoofdstukkenlijst.</td>
     </tr>
     <tr>
       <td><strong>next_title</strong></td>
       <td>&lt;b&gt;Next chapter:&lt;/b&gt;</td>
-      <td>The text to display before the next chapter.</td>
+      <td>De tekst die weergegeven moet worden voor het nieuwe hoofdstuk.</td>
     </tr>
     <tr>
       <td><strong>current_title</strong></td>
       <td>&lt;b&gt;Now playing:&lt;/b&gt;</td>
-      <td>The text to display before the currently playing chapter.</td>
+      <td>De tekst die weergegeven moet worden voor het hoofdstuk dat nu afgespeeld wordt.</td>
     </tr>
     <tr>
       <td><strong>position</strong></td>
       <td>right</td>
-      <td>The position of the chapterdoch relative to the player (left, right or false).</td>
+      <td>De positie van de chapterdock ten opzichte van de speler ('left', 'right' of false).</td>
     </tr>
     <tr>
       <td><strong>timeFormat</strong></td>
       <td>ChapterDock.timeFormat()</td>
-      <td>With this callback you can overwrite the time format of the chapterdock.</td>
+      <td>Met deze functie kun je het datumformaat van de chapterdock overschrijven.</td>
     </tr>
     <tr>
       <td><strong>onList</strong></td>
       <td>ChapterDock.onList()</td>
-      <td>This callback is triggered when the JWplayer has been initialized and the chapterlist SRT file has been loaded. It will process the chapters from the SRT file and will create the markup for the chapterdock.</td>
+      <td>Deze functie wordt aangeroepen op het moment wanneer de JW Player geladen is en het SRT bestand van de JW Player geladen is. Het verwerkt de hoofdstukken van het SRT bestand en genereert de HTML voor de chapterdock.</td>
     </tr>
     <tr>
       <td><strong>onSelect</strong></td>
       <td>ChapterDock.onSelect()</td>
-      <td>This callback is triggered when the user clicks a chapter in the chapterdock and is used to update the markup with the current chapter information.</td>
+      <td>Deze functie wordt aangeroepen wanneer de gebruiker een hoofdstuk in de chapterdock aanklikt en wordt gebruikt om de HTML bij te werken met informatie over het huidige hoofdstuk.</td>
     </tr>
   </tbody>
 </table>
