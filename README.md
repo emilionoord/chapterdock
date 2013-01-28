@@ -34,7 +34,7 @@ Quick Start
         /chapterdock/README.md
         /jquery.min.js
 
-5. Create a chapters SRT file.
+5. Create a chapters SRT file and name it 'chapters.srt'.
 
     **Example:**
 

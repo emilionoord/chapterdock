@@ -34,7 +34,7 @@ Snel beginnen
         /chapterdock/README.md
         /jquery.min.js
 
-5. Maak een SRT hofdstukken bestand.
+5. Maak een SRT hofdstukken bestand en noem het 'chapters.srt'.
 
     **Voorbeeld:**
 
