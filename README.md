@@ -23,7 +23,7 @@ Quick Start
 
 4) Place the files in a logical structure.
 
-Example:
+**Example:**
 
     /jwplayer.flash.swf
     /jwplayer.html5.js
@@ -39,7 +39,7 @@ Example:
 
 5) Create a directory 'uploads' and make sure you have placed a video file and screenshot image in the uploads directory.
 
-Example:
+**Example:**
 
     /uploads/example.jpg
     /uploads/example.mp4
