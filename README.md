@@ -21,6 +21,7 @@ Quick Start
 4. Place the files in a logical structure.
 
     **Example:**
+
         /jwplayer.flash.swf
         /jwplayer.html5.js
         /jwplayer.js
