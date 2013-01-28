@@ -56,7 +56,22 @@ Quick Start
 6) Bring it all together &#9774;
 
 **Example:**
-See [example.html](https://github.com/skilip/chapterdock/blob/master/example.html) for an example of how to use the plugin.
+    
+    jwplayer("myElement").setup({
+  	  file: "http://content.bitsontherun.com/videos/lWMJeVvV-364767.mp4",
+      image: "http://www.longtailvideo.com/content/images/jw-player/lWMJeVvV-876.jpg",
+      primary: 'html5',
+      plugins: {
+        'chapterdock.js': {
+          file: 'chapters.srt',
+          position: 'left',
+          next_title: '<i>Next in line...</i>',
+          timeFormat: function(time) {
+            // Your logic here...
+          },
+        }
+      }
+    });
     
 
 Configuration
@@ -110,21 +125,3 @@ There are a few configuration options:
     </tr>
   </tbody>
 </table>
-
-**Example:**
-    
-    jwplayer("myElement").setup({
-  	  file: "http://content.bitsontherun.com/videos/lWMJeVvV-364767.mp4",
-      image: "http://www.longtailvideo.com/content/images/jw-player/lWMJeVvV-876.jpg",
-      primary: 'html5',
-      plugins: {
-        'chapterdock.js': {
-          file: 'chapters.srt',
-          position: 'left',
-          next_title: '<i>Next in line...</i>',
-          timeFormat: function(time) {
-            // Your logic here...
-          },
-        }
-      }
-    });
