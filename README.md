@@ -37,7 +37,7 @@ Quick Start
 5. Create a chapters SRT file.
 
     **Example:**
-    
+
         1
         00:00:01,000 --> 00:00:30,000
         <i>Chapter:</i>
