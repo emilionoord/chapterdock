@@ -19,9 +19,8 @@ Quick Start
 2. Download [jQuery](http://code.jquery.com/jquery.min.js).
 3. Download and extract the JW Player 6 version of the [Chapterdock plugin](https://github.com/skilip/chapterdock/archive/jwplayer-6.zip).
 4. Place the files in a logical structure.
-    
+
     **Example:**
-    
         /jwplayer.flash.swf
         /jwplayer.html5.js
         /jwplayer.js
@@ -33,7 +32,7 @@ Quick Start
         /chapterdock/example.html
         /chapterdock/README.md
         /jquery.min.js
-    
+
 5. Create a chapters SRT file.
 
     **Example:**
