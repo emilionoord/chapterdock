@@ -53,7 +53,11 @@ Quick Start
     <b>Chapter 2</b>
     Some description
 
-6) Load 
+6) Initialize the JW Player &#9774;
+
+**Example:**
+    
+    
 
 Configuration
 -------------
