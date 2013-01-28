@@ -24,23 +24,25 @@ Quick Start
 4) Place the files in a logical structure.
 
 Example:
-  * /jwplayer.flash.swf
-  * /jwplayer.html5.js
-  * /jwplayer.js
-  * /README.html
-  * /chapterdock/chapterdock.css
-  * /chapterdock/chapterdock.js
-  * /chapterdock/chapterdock.swf
-  * /chapterdock/chapters.srt
-  * /chapterdock/example.html
-  * /chapterdock/README.md
-  * /jquery.min.js
+
+    /jwplayer.flash.swf
+    /jwplayer.html5.js
+    /jwplayer.js
+    /README.html
+    /chapterdock/chapterdock.css
+    /chapterdock/chapterdock.js
+    /chapterdock/chapterdock.swf
+    /chapterdock/chapters.srt
+    /chapterdock/example.html
+    /chapterdock/README.md
+    /jquery.min.js
 
 5) Create a directory 'uploads' and make sure you have placed a video file and screenshot image in the uploads directory.
 
 Example:
-  * /uploads/example.jpg
-  * /uploads/example.mp4
+
+    /uploads/example.jpg
+    /uploads/example.mp4
 
 6) Open /chapterdock/example.html in your browser.
 
