@@ -56,7 +56,6 @@ Quick Start
 6) Bring it all together &#9774;
 
 **Example:**
-
 See [example.html](https://github.com/skilip/chapterdock/blob/master/example.html) for an example of how to use the plugin.
     
 
