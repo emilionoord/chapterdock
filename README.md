@@ -65,35 +65,48 @@ Configuration
 There are a few configuration options:
 
 <table>
-  <tr>
-    <td><strong>file</strong></td>
-    <td>The path or URL to the SRT chapterlist.</td>
-  </tr>
-  <tr>
-    <td><strong>next_title</strong></td>
-    <td>
-      The text to display before the next chapter.<br />
-      (&lt;b&gt;Next chapter:&lt;/b&gt;)
-    </td>
-  </tr>
-  <tr>
-    <td><strong>current_title</strong> (<b>Now playing:</b>)</td>
-    <td>The text to display before the currently playing chapter.</td>
-  </tr>
-  <tr>
-    <td><strong>position</strong> (right)</td>
-    <td>The position of the chapterdoch relative to the player (left, right or false).</td>
-  </tr>
-  <tr>
-    <td><strong>timeFormat</strong> (ChapterDock.timeFormat())</td>
-    <td>With this callback you can overwrite the time format of the chapterdock.</td>
-  </tr>
-  <tr>
-    <td><strong>onList</strong> (ChapterDock.onList())</td>
-    <td>This callback is triggered when the JWplayer has been initialized and the chapterlist SRT file has been loaded. It will process the chapters from the SRT file and will create the markup for the chapterdock.</td>
-  </tr>
-  <tr>
-    <td><strong>onSelect</strong> (ChapterDock.onSelect())</td>
-    <td>This callback is triggered when the user clicks a chapter in the chapterdock and is used to update the markup with the current chapter information.</td>
-  </tr>
+  <thead>
+    <tr>
+      <th>Key</th>
+      <th>Default value</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>file</strong></td>
+      <td></td>
+      <td>The path or URL to the SRT chapterlist.</td>
+    </tr>
+    <tr>
+      <td><strong>next_title</strong></td>
+      <td>&lt;b&gt;Next chapter:&lt;/b&gt;</td>
+      <td>The text to display before the next chapter.</td>
+    </tr>
+    <tr>
+      <td><strong>current_title</strong></td>
+      <td>&lt;b&gt;Now playing:&lt;/b&gt;</td>
+      <td>The text to display before the currently playing chapter.</td>
+    </tr>
+    <tr>
+      <td><strong>position</strong></td>
+      <td>right</td>
+      <td>The position of the chapterdoch relative to the player (left, right or false).</td>
+    </tr>
+    <tr>
+      <td><strong>timeFormat</strong></td>
+      <td>ChapterDock.timeFormat()</td>
+      <td>With this callback you can overwrite the time format of the chapterdock.</td>
+    </tr>
+    <tr>
+      <td><strong>onList</strong></td>
+      <td>ChapterDock.onList()</td>
+      <td>This callback is triggered when the JWplayer has been initialized and the chapterlist SRT file has been loaded. It will process the chapters from the SRT file and will create the markup for the chapterdock.</td>
+    </tr>
+    <tr>
+      <td><strong>onSelect</strong></td>
+      <td>ChapterDock.onSelect()</td>
+      <td>This callback is triggered when the user clicks a chapter in the chapterdock and is used to update the markup with the current chapter information.</td>
+    </tr>
+  </tbody>
 </table>
