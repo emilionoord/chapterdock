@@ -22,7 +22,6 @@ Quick Start
 3. Download and extract the JW Player 6 version of the [Chapterdock plugin](https://github.com/skilip/chapterdock/archive/jwplayer-6.zip).
 
 4. Place the files in a logical structure.
-
 **Example:**
     
     /jwplayer.flash.swf
@@ -38,7 +37,6 @@ Quick Start
     /jquery.min.js
 
 5. Create a chapters SRT file.
-
 **Example:**
     
     1
@@ -54,7 +52,6 @@ Quick Start
     Some description
 
 6. Bring it all together &#9774;
-
 **Example:**
     
     jwplayer("myElement").setup({
