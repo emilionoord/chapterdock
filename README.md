@@ -15,13 +15,13 @@ Requirements
 Quick Start
 -----------
 
-1) Download and extract the latest [JW Player](http://www.longtailvideo.com/jw-player/download/).
+1. Download and extract the latest [JW Player](http://www.longtailvideo.com/jw-player/download/).
 
-2) Download [jQuery](http://code.jquery.com/jquery.min.js).
+2. Download [jQuery](http://code.jquery.com/jquery.min.js).
 
-3) Download and extract the JW Player 6 version of the [Chapterdock plugin](https://github.com/skilip/chapterdock/archive/jwplayer-6.zip).
+3. Download and extract the JW Player 6 version of the [Chapterdock plugin](https://github.com/skilip/chapterdock/archive/jwplayer-6.zip).
 
-4) Place the files in a logical structure.
+4. Place the files in a logical structure.
 
 **Example:**
     
@@ -37,7 +37,7 @@ Quick Start
     /chapterdock/README.md
     /jquery.min.js
 
-5) Create a chapters SRT file.
+5. Create a chapters SRT file.
 
 **Example:**
     
@@ -53,7 +53,7 @@ Quick Start
     <b>Chapter 2</b>
     Some description
 
-6) Bring it all together &#9774;
+6. Bring it all together &#9774;
 
 **Example:**
     
