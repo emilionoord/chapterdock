@@ -64,10 +64,33 @@ Configuration
 
 There are a few configuration options:
 
-  * **file** - The path or URL to the SRT chapterlist.
-  * **next_title (<b>Next chapter:</b>)** - The text to display before the next chapter.
-  * **current_title (<b>Now playing:</b>)** - The text to display before the currently playing chapter.
-  * **position (right)** - The position of the chapterdoch relative to the player (left, right or false).
-  * **timeFormat (ChapterDock.timeFormat())** - With this callback you can overwrite the time format of the chapterdock.
-  * **onList (ChapterDock.onList())** - This callback is triggered when the JWplayer has been initialized and the chapterlist SRT file has been loaded. It will process the chapters from the SRT file and will create the markup for the chapterdock.
-  * **onSelect (ChapterDock.onSelect())** - This callback is triggered when the user clicks a chapter in the chapterdock and is used to update the markup with the current chapter information.
+<table>
+  <tr>
+    <td>**file**</td>
+    <td>The path or URL to the SRT chapterlist.</td>
+  </tr>
+  <tr>
+    <td>**next_title** (<b>Next chapter:</b>)</td>
+    <td>The text to display before the next chapter.</td>
+  </tr>
+  <tr>
+    <td>**current_title** (<b>Now playing:</b>)</td>
+    <td>The text to display before the currently playing chapter.</td>
+  </tr>
+  <tr>
+    <td>**position** (right)</td>
+    <td>The position of the chapterdoch relative to the player (left, right or false).</td>
+  </tr>
+  <tr>
+    <td>**timeFormat** (ChapterDock.timeFormat())</td>
+    <td>With this callback you can overwrite the time format of the chapterdock.</td>
+  </tr>
+  <tr>
+    <td>**onList** (ChapterDock.onList())</td>
+    <td>This callback is triggered when the JWplayer has been initialized and the chapterlist SRT file has been loaded. It will process the chapters from the SRT file and will create the markup for the chapterdock.</td>
+  </tr>
+  <tr>
+    <td>**onSelect** (ChapterDock.onSelect())</td>
+    <td>This callback is triggered when the user clicks a chapter in the chapterdock and is used to update the markup with the current chapter information.</td>
+  </tr>
+</table>
