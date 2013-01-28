@@ -16,8 +16,11 @@ Quick Start
 -----------
 
 1) Download and extract the latest [JW Player](http://www.longtailvideo.com/jw-player/download/).
+
 2) Download [jQuery](http://code.jquery.com/jquery.min.js).
+
 3) Download and extract the JW Player 6 version of the [Chapterdock plugin](https://github.com/skilip/chapterdock/archive/jwplayer-6.zip).
+
 4) Place the files in a logical structure.
 
 **Example:**
