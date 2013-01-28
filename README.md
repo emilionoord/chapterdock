@@ -70,8 +70,11 @@ There are a few configuration options:
     <td>The path or URL to the SRT chapterlist.</td>
   </tr>
   <tr>
-    <td><strong>next_title</strong> (<b>Next chapter:</b>)</td>
-    <td>The text to display before the next chapter.</td>
+    <td><strong>next_title</strong></td>
+    <td>
+      The text to display before the next chapter.<br />
+      (&gt;b&lt;Next chapter:&gt;/b&lt;)
+    </td>
   </tr>
   <tr>
     <td><strong>current_title</strong> (<b>Now playing:</b>)</td>
