@@ -1,0 +1,29 @@
+1
+00:00:01,000 --> 00:00:03,000
+<i>Chapter:</i>
+<b>Chapter 1</b>
+Some description
+
+2
+00:00:03,000 --> 00:00:06,000
+<i>Chapter:</i>
+<b>Chapter 2</b>
+Some description
+
+3
+00:00:06,000 --> 00:00:10,000
+<i>Chapter:</i>
+<b>Chapter 3</b>
+Some description
+
+4
+00:00:10,000 --> 00:01:10,000
+<i>Chapter:</i>
+<b>Chapter 4</b>
+Some description
+
+4
+00:01:10,000 --> 00:01:14,000
+<i>Chapter:</i>
+<b>Chapter 5</b>
+Some description

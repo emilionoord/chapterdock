@@ -1,0 +1,48 @@
+.jwplayer .chapterwidget {
+  font: 12px Verdana, sans-serif;
+  background-color: #fff;
+  width: auto;
+  min-height: 100%;
+}
+
+.jwplayer .chaptercurrent {
+  background-color: #e0e7ea;
+  color: #333;
+  text-align: center;
+  margin: 0 10px 10px;
+  min-height: 30px;
+  padding: 10px;
+}
+
+.jwplayer .chapterdock {
+  color: #333;
+  margin: 10px;
+}
+
+.chapterdock .chapterRow {
+  display: block;
+  overflow: hidden;
+  color: #121469;
+  padding: 4px 0;
+  white-space: nowrap;
+}
+
+.chapterdock span.time {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #e0e7ea;
+  color: #121469;
+  padding: 1px 2px 2px;
+  margin: 0 5px 0 0;
+}
+
+.chapterdock .active .time {
+  background-color: #121469;
+  color: white;
+}
+
+.chapterdock .active {
+  background: white;
+}
