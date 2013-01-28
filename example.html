@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>JW Player Chapterdock</title>
+  <script type="text/javascript" src="../jquery.min.js"></script>
+  <script type="text/javascript" src="../jwplayer.js" ></script>
+  <script type="text/javascript">
+
+    $(function() {
+      jwplayer("myElement").setup({
+        file: "../uploads/example.mp4",
+        image: "../uploads/example.jpg",
+        primary: 'html5',
+        plugins: {
+          'chapterdock.js': {
+            file: '../chapterdock/chapters.srt'
+          }
+        }
+      });
+    });
+
+  </script>
+</head>
+<body>
+
+<div id="myElement">Loading the player...</div>
+
+</body>
+</html>
