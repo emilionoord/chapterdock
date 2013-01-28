@@ -138,7 +138,6 @@
   		});
 
       first_chapter.title = this.config.next_title;
-      console.log(first_chapter);
       this.onSelect(first_chapter);
     },
 
