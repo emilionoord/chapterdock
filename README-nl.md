@@ -18,7 +18,7 @@ Snel beginnen
 1. Download en extraheer de laaste versie van [JW Player](http://www.longtailvideo.com/jw-player/download/).
 2. Download [jQuery](http://code.jquery.com/jquery.min.js).
 3. Download en extraheer de JW Player 6 versie van de [Chapterdock plugin](https://github.com/skilip/chapterdock/archive/jwplayer-6.zip).
-4. Plaats de bestanden in een logische structuur.
+4. Plaats de bestanden in een logische structuur.ALAAF
 
     **Voorbeeld:**
 
