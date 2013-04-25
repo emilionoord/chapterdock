@@ -1,7 +1,7 @@
 JW Player Chapterdock Plugin
 ============================
 
-<img src="https://raw.github.com/skilip/chapterdock/jwplayer-6/screenshot.png" />
+<img src="https://raw.github.com/TweedeKamer/chapterdock/jwplayer-6/screenshot.png" />
 
 Chapterdock is a JW Player plugin that can be used to display a list of chapters besides the JW Player. The chapters can be clicked individually to navigate through the video. The active chapter will be highlighted.
 
